@@ -88,3 +88,11 @@ margin-right: 200%;
         background-size: cover;
     }
 }
+
+.bullet {
+  position: fixed;
+  top: 85%;
+  left: 87%;
+  width: 10vw;
+  height: 10vh%;
+}
