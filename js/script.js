@@ -25,12 +25,12 @@ $(document).ready(function() {
 
 
 $(document).ready(function() {
-var pixelToMove = 130;
+var pixelToMove = 120;
 $("section").mousemove(function(e) {
 var width = $(this).innerWidth();
 var height = $(this).innerHeight();
 var newValueX = (e.pageX / width) * pixelToMove;
 var newValueY = (e.pageY / height) * pixelToMove;
-$(this).css('background-position', newValueX + '%' + ' ' + (newValueY) + '%');
+$(this).css('background-position', (newValueX*4) + '%' + ' ' + (newValueY*0.5) + '%');
 });
 });

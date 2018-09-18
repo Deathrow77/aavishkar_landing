@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  background-image: url('../img/bg3.png');
+  background-image: url('../img/bg31.png');
   z-index: -1;
   height: 100%;
   width: 100%;
@@ -27,7 +27,7 @@ section {
 .clock {
   position: absolute;
   /* z-index: 10; */
-  top: 60%;
+  top: 89%;
   display: inline;
   height: auto;
   width: 35vw;
@@ -36,7 +36,7 @@ section {
 .clockbox {
   position: fixed;
   left: 32%;
-  z-index : -1;
+  z-index : 8;
 }
 
 .fixed-top-left {
@@ -60,10 +60,10 @@ section {
 .icons-social  {
 padding:0;
 position:absolute;
-bottom:5%;
-font-size:5vh;
-justify-content: center;
-margin-right: 200%;
+bottom:2%;
+font-size:4vh;
+/* justify-content: center; */
+margin-right: 185%;
 }
 
 .icons-social a {
@@ -91,8 +91,13 @@ margin-right: 200%;
 
 .bullet {
   position: fixed;
-  top: 85%;
-  left: 87%;
-  width: 10vw;
-  height: 10vh%;
+  top: 88%;
+  left: 90%;
+  width: 8vw;
+  height: 8 vh%;
+}
+
+.footer {
+  position: fixed;
+
 }
